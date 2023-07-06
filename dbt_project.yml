@@ -38,4 +38,6 @@ models:
         +materialized: table
     src:
         +materialized: ephemeral
-        
+    python:
+        +materialized: :table
+       

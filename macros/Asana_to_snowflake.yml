@@ -1,9 +1,0 @@
-version: 2
-
-# Define a macro to execute the Python script
-models:
-  - name: run_my_script
-    definition: |
-      {% macro run_my_script() %}
-          {{ execute('Asana_to_snowflake.py') }}
-      {% endmacro %}

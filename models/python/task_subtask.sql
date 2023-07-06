@@ -1,0 +1,1 @@
+select * from {{ref('task_subtask_table')}}
